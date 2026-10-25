@@ -5,7 +5,6 @@
 
 import requests, csv
 from datetime import datetime
-from functools import wraps
 
 def log_time(func):
     def wrapper(*args, **kwargs):
